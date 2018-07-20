@@ -10,8 +10,8 @@ export class ServiceProvider {
   constructor(public http: Http) {
 
   }
-  anaSayfa(kategori){
-    return this.http.get(this.url+kategori)
-    .map((res: Response)=> res.json())
+  anaSayfa(kategori) {
+    return this.http.get(this.url + kategori)
+      .map((res: Response) => res.json())
   }
 }
