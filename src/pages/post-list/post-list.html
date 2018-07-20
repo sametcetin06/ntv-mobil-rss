@@ -1,0 +1,14 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{kategori.name}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <div *ngFor="let post of post">
+      <cardcomponent [post]="post"></cardcomponent>
+  </div>
+</ion-content>

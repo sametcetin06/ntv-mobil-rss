@@ -1,11 +1,13 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      About
+      Kategoriler
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-
+<ion-content>
+  <div *ngFor="let kategoriler of kategoriler">
+    <kategoriler [kategori]=kategoriler></kategoriler>
+  </div>
 </ion-content>

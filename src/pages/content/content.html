@@ -1,0 +1,23 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            {{post.title}}
+        </ion-title>
+        <ion-buttons end>
+            <button ion-button icon-only (click)="openModal()">
+                <ion-icon name="more"></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                <div style="font-size: 16px; padding-top: 5%" [innerHtml]="post.content"></div>
+                <button class="dfg" ion-button outline padding block (click)="goLink()">Daha fazlasını Gör</button>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>
