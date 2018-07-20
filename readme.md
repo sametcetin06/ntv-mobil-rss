@@ -2,4 +2,4 @@
 
 Ntv Rss ile mobil için app
 
-Backend (https://ntvdeneme.herokuapp.com/)[https://ntvdeneme.herokuapp.com/]
+Backend [https://ntvdeneme.herokuapp.com/]
