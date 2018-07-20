@@ -1,5 +1,5 @@
 # Ntv Mobil İonic App
 
-Ntv Rss ile mobil için app
+Ntv Rss ile Mobil App
 
-Backend [https://ntvdeneme.herokuapp.com/]
+Backend https://ntvdeneme.herokuapp.com/
